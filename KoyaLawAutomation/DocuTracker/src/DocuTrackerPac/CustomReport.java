@@ -49,7 +49,7 @@ public class CustomReport {
 			driver.findElement(By.xpath(".//*[@id='AgreementTree']/ul/li/ul/li/ul/li[3]/div/div/div/div/span[2]/label/span[1]")).click();
 			driver.findElement(By.xpath(".//*[@id='btnsubmit']")).click();
 			Thread.sleep(10000);
-			Thread.sleep(10000);
+			
 			System.out.println("Agreement Successfully added");
 			
 
